@@ -4,13 +4,36 @@ body {
 
 header {
   text-align: center;
+  margin-bottom: 20px;
 }
 ul {
   list-style-type: none;
   text-align: center;
+  padding: 0px;
+}
+
+li {
+  display: inline;
+  margin-right: 100px;
 }
 a {
   color: black;
   text-decoration: none;
   font-size: 18px;
+  margin-top: 50px;
+}
+a:hover {
+  color: red;
+}
+li:last-child {
+  margin-right: 0px;
+}
+nav {
+  margin-bottom: 20px;
+}
+.section-about {
+  height: 640px;
+  background-image: url(../img/background_image.jpg);
+  background-position: center;
+  background-size: cover;
 }
