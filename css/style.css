@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: #ffe2b0;
 }
@@ -36,4 +40,32 @@ nav {
   background-image: url(../img/background_image.jpg);
   background-position: center;
   background-size: cover;
+  position: relative;
+}
+.section-about__block {
+  width: 420px;
+  height: 190px;
+  background: linear-gradient(180deg, rgba(244,213,178,0.8)0%, rgba(234,156,65,0.8)100%);
+  position: absolute;
+  top: 349px;
+  left: 730px;
+  padding-top: 15px;
+}
+.section-about__border {
+  width: 390px;
+  height: 160px;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding-top: 17px;
+  padding-left: 28px;
+  text-align: left;
+}
+.section-about__title {
+  font-size: 36px;
+  margin: 0;
+  margin-bottom: 9px;
+}
+.section-about__text {
+  font-size: 12px;
+  margin: 0;
 }
